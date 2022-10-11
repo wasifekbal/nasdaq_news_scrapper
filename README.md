@@ -9,9 +9,10 @@ https://www.nasdaq.com/nasdaq-RSS-Feeds
 ### Setup
 ```bash
 pip3 install virtualenv
-git clone ......
-cd ....
+git clone https://github.com/wasifekbal/nasdaq_news_scrapper.git
+cd nasdaq_news_scrapper 
 virtualenv venv
+source ./venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
